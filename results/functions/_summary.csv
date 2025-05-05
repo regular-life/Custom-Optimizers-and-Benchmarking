@@ -1,0 +1,612 @@
+function,optimizer,min_abs_loss,last_abs_loss,rank
+Ackley Function,SGD,0.0,,1.0
+Ackley Function,Adam,0.0,,1.0
+Ackley Function,AdamW,0.0,,1.0
+Ackley Function,RMSprop,0.0,,1.0
+Ackley Function,Yogi,0.0,,1.0
+Ackley Function,Rprop,0.0,0.0,1.0
+Ackley Function,RPropMomentum,0.0,0.0,1.0
+Ackley Function,RpropwithPolyak,0.0,0.0,1.0
+Ackley Function,SGDPolyakMomentum,0.0,,1.0
+Ackley Function,ProxYogi,0.0,,1.0
+Ackley Function,ProximalHB,0.0,,1.0
+Ackley Function,AdamQN,0.0,,1.0
+Ackley Function,AMSGradMirror,0.0,,1.0
+Bukin Function N. 6,RPropMomentum,0.44987478852272034,0.45256680250167847,1.0
+Bukin Function N. 6,Rprop,1.3190414905548096,1.3190414905548096,2.0
+Bukin Function N. 6,RpropwithPolyak,1.3190414905548096,1.3190414905548096,2.0
+Bukin Function N. 6,SGDPolyakMomentum,3.7800467014312744,31.497488021850586,4.0
+Bukin Function N. 6,SGD,4.628806114196777,257.6177062988281,5.0
+Bukin Function N. 6,ProximalHB,25.137086868286133,207.48287963867188,6.0
+Bukin Function N. 6,ProxYogi,81.70259857177734,81.70259857177734,7.0
+Bukin Function N. 6,RMSprop,91.64002227783203,91.64002227783203,8.0
+Bukin Function N. 6,AMSGradMirror,94.92538452148438,94.92538452148438,9.0
+Bukin Function N. 6,AdamQN,96.25511169433594,96.25511169433594,10.0
+Bukin Function N. 6,AdamW,96.95687866210938,96.95687866210938,11.0
+Bukin Function N. 6,Adam,97.00666809082031,97.00666809082031,12.0
+Bukin Function N. 6,Yogi,97.02490997314453,97.02490997314453,13.0
+Cross-in-Tray Function,SGD,,,
+Cross-in-Tray Function,Adam,,,
+Cross-in-Tray Function,AdamW,,,
+Cross-in-Tray Function,RMSprop,,,
+Cross-in-Tray Function,Yogi,,,
+Cross-in-Tray Function,Rprop,,,
+Cross-in-Tray Function,RPropMomentum,,,
+Cross-in-Tray Function,RpropwithPolyak,,,
+Cross-in-Tray Function,SGDPolyakMomentum,,,
+Cross-in-Tray Function,ProxYogi,,,
+Cross-in-Tray Function,ProximalHB,,,
+Cross-in-Tray Function,AdamQN,,,
+Cross-in-Tray Function,AMSGradMirror,,,
+Drop-Wave Function,SGD,1.0,,1.0
+Drop-Wave Function,Adam,1.0,,1.0
+Drop-Wave Function,AdamW,1.0,,1.0
+Drop-Wave Function,RMSprop,1.0,,1.0
+Drop-Wave Function,Yogi,1.0,,1.0
+Drop-Wave Function,Rprop,1.0,1.0,1.0
+Drop-Wave Function,RPropMomentum,1.0,1.0,1.0
+Drop-Wave Function,RpropwithPolyak,1.0,1.0,1.0
+Drop-Wave Function,SGDPolyakMomentum,1.0,,1.0
+Drop-Wave Function,ProxYogi,1.0,,1.0
+Drop-Wave Function,ProximalHB,1.0,,1.0
+Drop-Wave Function,AdamQN,1.0,,1.0
+Drop-Wave Function,AMSGradMirror,1.0,,1.0
+Eggholder Function,SGD,25.460342407226562,31.56411361694336,1.0
+Eggholder Function,Adam,25.460342407226562,25.724916458129883,1.0
+Eggholder Function,AdamW,25.460342407226562,25.7248477935791,1.0
+Eggholder Function,RMSprop,25.460342407226562,26.16980743408203,1.0
+Eggholder Function,Yogi,25.460342407226562,25.723243713378906,1.0
+Eggholder Function,Rprop,25.460342407226562,66.44258117675781,1.0
+Eggholder Function,RPropMomentum,25.460342407226562,66.8194808959961,1.0
+Eggholder Function,RpropwithPolyak,25.460342407226562,66.44258117675781,1.0
+Eggholder Function,SGDPolyakMomentum,25.460342407226562,26.085603713989258,1.0
+Eggholder Function,ProxYogi,25.460342407226562,26.91641616821289,1.0
+Eggholder Function,ProximalHB,25.460342407226562,63.20429992675781,1.0
+Eggholder Function,AdamQN,25.460342407226562,25.7912654876709,1.0
+Eggholder Function,AMSGradMirror,25.460342407226562,25.902870178222656,1.0
+Gramacy & Lee (2012) Function,ProximalHB,0.0005708318203687668,0.233591228723526,1.0
+Gramacy & Lee (2012) Function,AdamQN,0.0029735714197158813,0.2310454100370407,2.0
+Gramacy & Lee (2012) Function,Adam,0.0033698156476020813,0.227737158536911,3.0
+Gramacy & Lee (2012) Function,Yogi,0.0034122057259082794,0.22737973928451538,4.0
+Gramacy & Lee (2012) Function,AdamW,0.004242885857820511,0.22681674361228943,5.0
+Gramacy & Lee (2012) Function,AMSGradMirror,0.007037431001663208,0.23016294836997986,6.0
+Gramacy & Lee (2012) Function,SGDPolyakMomentum,0.007409527897834778,0.23218023777008057,7.0
+Gramacy & Lee (2012) Function,Rprop,0.009478498250246048,0.2322591245174408,8.0
+Gramacy & Lee (2012) Function,RPropMomentum,0.009478498250246048,0.2322591245174408,8.0
+Gramacy & Lee (2012) Function,RpropwithPolyak,0.009478498250246048,0.2322591245174408,8.0
+Gramacy & Lee (2012) Function,ProxYogi,0.01003815233707428,0.23092979192733765,11.0
+Gramacy & Lee (2012) Function,SGD,0.03441079705953598,0.23040997982025146,12.0
+Gramacy & Lee (2012) Function,RMSprop,0.034671589732170105,0.232259139418602,13.0
+Griewank Function,SGD,0.0,0.0,1.0
+Griewank Function,Adam,0.0,0.0,1.0
+Griewank Function,AdamW,0.0,0.0,1.0
+Griewank Function,RMSprop,0.0,0.0,1.0
+Griewank Function,Yogi,0.0,0.0,1.0
+Griewank Function,Rprop,0.0,0.0,1.0
+Griewank Function,RPropMomentum,0.0,0.0,1.0
+Griewank Function,RpropwithPolyak,0.0,0.0,1.0
+Griewank Function,SGDPolyakMomentum,0.0,0.0,1.0
+Griewank Function,ProxYogi,0.0,0.0,1.0
+Griewank Function,ProximalHB,0.0,0.0,1.0
+Griewank Function,AdamQN,0.0,0.0,1.0
+Griewank Function,AMSGradMirror,0.0,0.0,1.0
+Holder Table Function,SGD,0.0,,1.0
+Holder Table Function,Adam,0.0,,1.0
+Holder Table Function,AdamW,0.0,,1.0
+Holder Table Function,RMSprop,0.0,,1.0
+Holder Table Function,Yogi,0.0,,1.0
+Holder Table Function,Rprop,0.0,0.0,1.0
+Holder Table Function,RPropMomentum,0.0,0.0,1.0
+Holder Table Function,RpropwithPolyak,0.0,0.0,1.0
+Holder Table Function,SGDPolyakMomentum,0.0,,1.0
+Holder Table Function,ProxYogi,0.0,,1.0
+Holder Table Function,ProximalHB,0.0,,1.0
+Holder Table Function,AdamQN,0.0,,1.0
+Holder Table Function,AMSGradMirror,0.0,,1.0
+Langermann Function,RPropMomentum,0.0010719967540353537,0.32810527086257935,1.0
+Langermann Function,Rprop,0.0010732891969382763,0.32810521125793457,2.0
+Langermann Function,RpropwithPolyak,0.0010732891969382763,0.32810521125793457,2.0
+Langermann Function,ProxYogi,0.002002008492127061,0.32245585322380066,4.0
+Langermann Function,AMSGradMirror,0.0022898612078279257,0.024537745863199234,5.0
+Langermann Function,RMSprop,0.0032503416296094656,0.2335972785949707,6.0
+Langermann Function,ProximalHB,0.015378938056528568,0.3274621069431305,7.0
+Langermann Function,SGD,0.017752118408679962,0.314540833234787,8.0
+Langermann Function,AdamQN,0.0736515000462532,0.0736515000462532,9.0
+Langermann Function,Adam,0.08157303929328918,0.08157303929328918,10.0
+Langermann Function,Yogi,0.08228567987680435,0.08228567987680435,11.0
+Langermann Function,AdamW,0.08726977556943893,0.08726977556943893,12.0
+Langermann Function,SGDPolyakMomentum,0.14341631531715393,0.14341631531715393,13.0
+Levy Function,RPropMomentum,9.693700064872246e-09,1.2473702071247317e-08,1.0
+Levy Function,Rprop,1.9204509271730785e-07,1.0306499689249904e-06,2.0
+Levy Function,RpropwithPolyak,1.9204509271730785e-07,1.0306499689249904e-06,2.0
+Levy Function,ProximalHB,0.008238572627305984,0.009136849083006382,4.0
+Levy Function,ProxYogi,0.4484015703201294,0.4484015703201294,5.0
+Levy Function,SGD,0.45720338821411133,0.45720338821411133,6.0
+Levy Function,RMSprop,0.5829247236251831,0.5829247236251831,7.0
+Levy Function,AMSGradMirror,0.6328664422035217,0.6328664422035217,8.0
+Levy Function,AdamQN,0.6538017392158508,0.6538017392158508,9.0
+Levy Function,Adam,0.6662382483482361,0.6662382483482361,10.0
+Levy Function,AdamW,0.6662501692771912,0.6662501692771912,11.0
+Levy Function,Yogi,0.6666423678398132,0.6666423678398132,12.0
+Levy Function,SGDPolyakMomentum,0.6900722980499268,0.6900722980499268,13.0
+Levy Function N. 13,RMSprop,1.9808502197265625,1.9808502197265625,1.0
+Levy Function N. 13,Rprop,1.9808502197265625,1.9808502197265625,1.0
+Levy Function N. 13,RPropMomentum,1.9808502197265625,1.9808504581451416,1.0
+Levy Function N. 13,RpropwithPolyak,1.9808502197265625,1.9808502197265625,1.0
+Levy Function N. 13,AdamQN,1.980850338935852,1.9808542728424072,5.0
+Levy Function N. 13,SGD,1.9808523654937744,1.9808979034423828,6.0
+Levy Function N. 13,ProxYogi,1.980860948562622,1.9809057712554932,7.0
+Levy Function N. 13,ProximalHB,1.9808679819107056,1.9809901714324951,8.0
+Levy Function N. 13,AMSGradMirror,1.9808778762817383,1.9809340238571167,9.0
+Levy Function N. 13,Adam,1.980910062789917,1.980910062789917,10.0
+Levy Function N. 13,AdamW,1.9809101819992065,1.9809101819992065,11.0
+Levy Function N. 13,Yogi,1.9809116125106812,1.9809116125106812,12.0
+Levy Function N. 13,SGDPolyakMomentum,1.9809192419052124,1.9809192419052124,13.0
+Rastrigin Function,SGD,0.0,0.0,1.0
+Rastrigin Function,Adam,0.0,0.0,1.0
+Rastrigin Function,AdamW,0.0,0.0,1.0
+Rastrigin Function,RMSprop,0.0,0.0,1.0
+Rastrigin Function,Yogi,0.0,0.0,1.0
+Rastrigin Function,Rprop,0.0,0.0,1.0
+Rastrigin Function,RPropMomentum,0.0,0.0,1.0
+Rastrigin Function,RpropwithPolyak,0.0,0.0,1.0
+Rastrigin Function,SGDPolyakMomentum,0.0,0.0,1.0
+Rastrigin Function,ProxYogi,0.0,0.0,1.0
+Rastrigin Function,ProximalHB,0.0,0.0,1.0
+Rastrigin Function,AdamQN,0.0,0.0,1.0
+Rastrigin Function,AMSGradMirror,0.0,0.0,1.0
+Schaffer Function N. 2,SGD,0.0,0.0,1.0
+Schaffer Function N. 2,Adam,0.0,0.0,1.0
+Schaffer Function N. 2,AdamW,0.0,0.0,1.0
+Schaffer Function N. 2,RMSprop,0.0,0.0,1.0
+Schaffer Function N. 2,Yogi,0.0,0.0,1.0
+Schaffer Function N. 2,Rprop,0.0,0.0,1.0
+Schaffer Function N. 2,RPropMomentum,0.0,0.0,1.0
+Schaffer Function N. 2,RpropwithPolyak,0.0,0.0,1.0
+Schaffer Function N. 2,SGDPolyakMomentum,0.0,0.0,1.0
+Schaffer Function N. 2,ProxYogi,0.0,0.0,1.0
+Schaffer Function N. 2,ProximalHB,0.0,0.0,1.0
+Schaffer Function N. 2,AdamQN,0.0,0.0,1.0
+Schaffer Function N. 2,AMSGradMirror,0.0,0.0,1.0
+Schaffer Function N. 4,SGD,1.0,1.0,1.0
+Schaffer Function N. 4,Adam,1.0,1.0,1.0
+Schaffer Function N. 4,AdamW,1.0,1.0,1.0
+Schaffer Function N. 4,RMSprop,1.0,1.0,1.0
+Schaffer Function N. 4,Yogi,1.0,1.0,1.0
+Schaffer Function N. 4,Rprop,1.0,1.0,1.0
+Schaffer Function N. 4,RPropMomentum,1.0,1.0,1.0
+Schaffer Function N. 4,RpropwithPolyak,1.0,1.0,1.0
+Schaffer Function N. 4,SGDPolyakMomentum,1.0,1.0,1.0
+Schaffer Function N. 4,ProxYogi,1.0,1.0,1.0
+Schaffer Function N. 4,ProximalHB,1.0,1.0,1.0
+Schaffer Function N. 4,AdamQN,1.0,1.0,1.0
+Schaffer Function N. 4,AMSGradMirror,1.0,1.0,1.0
+Schwefel Function,SGD,0.0,,1.0
+Schwefel Function,Adam,0.0,,1.0
+Schwefel Function,AdamW,0.0,,1.0
+Schwefel Function,RMSprop,0.0,,1.0
+Schwefel Function,Yogi,0.0,,1.0
+Schwefel Function,Rprop,0.0,0.0,1.0
+Schwefel Function,RPropMomentum,0.0,0.0,1.0
+Schwefel Function,RpropwithPolyak,0.0,0.0,1.0
+Schwefel Function,SGDPolyakMomentum,0.0,,1.0
+Schwefel Function,ProxYogi,0.0,,1.0
+Schwefel Function,ProximalHB,0.0,,1.0
+Schwefel Function,AdamQN,0.0,,1.0
+Schwefel Function,AMSGradMirror,0.0,,1.0
+Shubert Function,SGD,19.875831604003906,,1.0
+Shubert Function,Adam,19.875831604003906,,1.0
+Shubert Function,AdamW,19.875831604003906,,1.0
+Shubert Function,RMSprop,19.875831604003906,,1.0
+Shubert Function,Yogi,19.875831604003906,,1.0
+Shubert Function,Rprop,19.875831604003906,,1.0
+Shubert Function,RPropMomentum,19.875831604003906,,1.0
+Shubert Function,RpropwithPolyak,19.875831604003906,,1.0
+Shubert Function,SGDPolyakMomentum,19.875831604003906,,1.0
+Shubert Function,ProxYogi,19.875831604003906,,1.0
+Shubert Function,ProximalHB,19.875831604003906,,1.0
+Shubert Function,AdamQN,19.875831604003906,,1.0
+Shubert Function,AMSGradMirror,19.875831604003906,,1.0
+Bohachevsky Function,SGD,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,Adam,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,AdamW,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,RMSprop,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,Yogi,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,Rprop,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,RPropMomentum,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,RpropwithPolyak,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,SGDPolyakMomentum,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,ProxYogi,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,ProximalHB,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,AdamQN,5.960464477539063e-08,5.960464477539063e-08,1.0
+Bohachevsky Function,AMSGradMirror,5.960464477539063e-08,5.960464477539063e-08,1.0
+"Perm Function 0 (d=2, β=0)",Rprop,0.023930029943585396,0.024545619264245033,1.0
+"Perm Function 0 (d=2, β=0)",RpropwithPolyak,0.023930029943585396,0.024545619264245033,1.0
+"Perm Function 0 (d=2, β=0)",RPropMomentum,0.023931704461574554,0.023934997618198395,3.0
+"Perm Function 0 (d=2, β=0)",ProximalHB,0.02393956109881401,0.18962208926677704,4.0
+"Perm Function 0 (d=2, β=0)",SGD,0.024674320593476295,0.5071873068809509,5.0
+"Perm Function 0 (d=2, β=0)",SGDPolyakMomentum,29.02592658996582,29.02592658996582,6.0
+"Perm Function 0 (d=2, β=0)",ProxYogi,29.224672317504883,29.224672317504883,7.0
+"Perm Function 0 (d=2, β=0)",RMSprop,32.02231216430664,32.02231216430664,8.0
+"Perm Function 0 (d=2, β=0)",AMSGradMirror,32.87994384765625,32.87994384765625,9.0
+"Perm Function 0 (d=2, β=0)",AdamQN,33.20459747314453,33.20459747314453,10.0
+"Perm Function 0 (d=2, β=0)",Adam,33.363853454589844,33.363853454589844,11.0
+"Perm Function 0 (d=2, β=0)",AdamW,33.364013671875,33.364013671875,12.0
+"Perm Function 0 (d=2, β=0)",Yogi,33.367942810058594,33.367942810058594,13.0
+Rotated Hyper-Ellipsoid Function,SGD,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,Adam,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,AdamW,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,RMSprop,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,Yogi,0.0,1.2113355498245652e-14,1.0
+Rotated Hyper-Ellipsoid Function,Rprop,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,RPropMomentum,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,RpropwithPolyak,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,SGDPolyakMomentum,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,ProxYogi,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,ProximalHB,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,AdamQN,0.0,0.0,1.0
+Rotated Hyper-Ellipsoid Function,AMSGradMirror,0.0,0.0,1.0
+Sphere Function,SGD,0.0,0.0,1.0
+Sphere Function,Adam,0.0,0.0,1.0
+Sphere Function,AdamW,0.0,0.0,1.0
+Sphere Function,RMSprop,0.0,0.0,1.0
+Sphere Function,Yogi,0.0,5.9491960443798335e-15,1.0
+Sphere Function,Rprop,0.0,0.0,1.0
+Sphere Function,RPropMomentum,0.0,0.0,1.0
+Sphere Function,RpropwithPolyak,0.0,0.0,1.0
+Sphere Function,SGDPolyakMomentum,0.0,0.0,1.0
+Sphere Function,ProxYogi,0.0,0.0,1.0
+Sphere Function,ProximalHB,0.0,0.0,1.0
+Sphere Function,AdamQN,0.0,0.0,1.0
+Sphere Function,AMSGradMirror,0.0,0.0,1.0
+Sum of Different Powers Function,SGD,0.0,0.0,1.0
+Sum of Different Powers Function,Adam,0.0,0.0,1.0
+Sum of Different Powers Function,AdamW,0.0,0.0,1.0
+Sum of Different Powers Function,RMSprop,0.0,0.0,1.0
+Sum of Different Powers Function,Yogi,0.0,5.974148553739117e-24,1.0
+Sum of Different Powers Function,Rprop,0.0,0.0,1.0
+Sum of Different Powers Function,RPropMomentum,0.0,0.0,1.0
+Sum of Different Powers Function,RpropwithPolyak,0.0,0.0,1.0
+Sum of Different Powers Function,SGDPolyakMomentum,0.0,0.0,1.0
+Sum of Different Powers Function,ProxYogi,0.0,0.0,1.0
+Sum of Different Powers Function,ProximalHB,0.0,0.0,1.0
+Sum of Different Powers Function,AdamQN,0.0,0.0,1.0
+Sum of Different Powers Function,AMSGradMirror,0.0,0.0,1.0
+Sum Squares Function,SGD,0.0,0.0,1.0
+Sum Squares Function,Adam,0.0,0.0,1.0
+Sum Squares Function,AdamW,0.0,0.0,1.0
+Sum Squares Function,RMSprop,0.0,0.0,1.0
+Sum Squares Function,Yogi,0.0,2.9974196308877894e-15,1.0
+Sum Squares Function,Rprop,0.0,0.0,1.0
+Sum Squares Function,RPropMomentum,0.0,0.0,1.0
+Sum Squares Function,RpropwithPolyak,0.0,0.0,1.0
+Sum Squares Function,SGDPolyakMomentum,0.0,0.0,1.0
+Sum Squares Function,ProxYogi,0.0,0.0,1.0
+Sum Squares Function,ProximalHB,0.0,0.0,1.0
+Sum Squares Function,AdamQN,0.0,0.0,1.0
+Sum Squares Function,AMSGradMirror,0.0,0.0,1.0
+Trid Function,SGD,0.020079970359802246,0.30479681491851807,1.0
+Trid Function,Rprop,0.05240669846534729,1.999924898147583,2.0
+Trid Function,RPropMomentum,0.05240669846534729,2.0,2.0
+Trid Function,RpropwithPolyak,0.05240669846534729,1.999924898147583,2.0
+Trid Function,ProximalHB,0.12434026598930359,1.9822299480438232,5.0
+Trid Function,ProxYogi,1.0065301656723022,1.0065301656723022,6.0
+Trid Function,RMSprop,1.496623158454895,1.496623158454895,7.0
+Trid Function,AMSGradMirror,1.6802128553390503,1.6802128553390503,8.0
+Trid Function,SGDPolyakMomentum,1.6902081966400146,1.6902081966400146,9.0
+Trid Function,AdamQN,1.7585999965667725,1.7585999965667725,10.0
+Trid Function,Adam,1.8069608211517334,1.8069608211517334,11.0
+Trid Function,AdamW,1.8070064783096313,1.8070064783096313,12.0
+Trid Function,Yogi,1.8081963062286377,1.8081963062286377,13.0
+Booth Function,RPropMomentum,0.0015662843361496925,0.0015662843361496925,1.0
+Booth Function,ProximalHB,0.028344621881842613,0.32038646936416626,2.0
+Booth Function,Rprop,0.16241329908370972,0.16241329908370972,3.0
+Booth Function,RpropwithPolyak,0.16241329908370972,0.16241329908370972,3.0
+Booth Function,SGD,0.48525017499923706,0.7066692113876343,5.0
+Booth Function,SGDPolyakMomentum,15.471305847167969,15.471305847167969,6.0
+Booth Function,ProxYogi,56.0540771484375,56.0540771484375,7.0
+Booth Function,RMSprop,64.93919372558594,64.93919372558594,8.0
+Booth Function,AMSGradMirror,68.24382781982422,68.24382781982422,9.0
+Booth Function,AdamQN,69.6548080444336,69.6548080444336,10.0
+Booth Function,Adam,70.5252914428711,70.5252914428711,11.0
+Booth Function,AdamW,70.526123046875,70.526123046875,12.0
+Booth Function,Yogi,70.5458984375,70.5458984375,13.0
+Matyas Function,SGD,0.0,0.0,1.0
+Matyas Function,Adam,0.0,0.0,1.0
+Matyas Function,AdamW,0.0,0.0,1.0
+Matyas Function,RMSprop,0.0,0.0,1.0
+Matyas Function,Yogi,0.0,6.462988781305579e-14,1.0
+Matyas Function,Rprop,0.0,0.0,1.0
+Matyas Function,RPropMomentum,0.0,0.0,1.0
+Matyas Function,RpropwithPolyak,0.0,0.0,1.0
+Matyas Function,SGDPolyakMomentum,0.0,0.0,1.0
+Matyas Function,ProxYogi,0.0,0.0,1.0
+Matyas Function,ProximalHB,0.0,0.0,1.0
+Matyas Function,AdamQN,0.0,0.0,1.0
+Matyas Function,AMSGradMirror,0.0,0.0,1.0
+McCormick Function,ProximalHB,0.01774013042449951,1.7609593868255615,1.0
+McCormick Function,RPropMomentum,0.15585064888000488,1.9128928184509277,2.0
+McCormick Function,Rprop,0.17032098770141602,1.9112224578857422,3.0
+McCormick Function,RpropwithPolyak,0.17032098770141602,1.9112224578857422,3.0
+McCormick Function,ProxYogi,1.6655688285827637,1.6655688285827637,5.0
+McCormick Function,SGD,1.6935057640075684,1.6935057640075684,6.0
+McCormick Function,RMSprop,1.8122828006744385,1.8122828006744385,7.0
+McCormick Function,AMSGradMirror,1.862849235534668,1.862849235534668,8.0
+McCormick Function,AdamQN,1.8741258382797241,1.8741258382797241,9.0
+McCormick Function,AdamW,1.882697343826294,1.882697343826294,10.0
+McCormick Function,Adam,1.8828628063201904,1.8828628063201904,11.0
+McCormick Function,Yogi,1.8830891847610474,1.8830891847610474,12.0
+McCormick Function,SGDPolyakMomentum,1.8951038122177124,1.8951038122177124,13.0
+Power Sum Function,RPropMomentum,3.892825126647949,3.892825126647949,1.0
+Power Sum Function,ProximalHB,3.892943859100342,4.24908447265625,2.0
+Power Sum Function,Rprop,3.8958961963653564,3.9074149131774902,3.0
+Power Sum Function,RpropwithPolyak,3.8958961963653564,3.9074149131774902,3.0
+Power Sum Function,SGD,3.942744016647339,8.342361450195312,5.0
+Power Sum Function,SGDPolyakMomentum,202.2219696044922,202.2219696044922,6.0
+Power Sum Function,ProxYogi,372.5870666503906,372.5870666503906,7.0
+Power Sum Function,RMSprop,382.0401611328125,382.0401611328125,8.0
+Power Sum Function,AMSGradMirror,384.79071044921875,384.79071044921875,9.0
+Power Sum Function,AdamQN,385.78399658203125,385.78399658203125,10.0
+Power Sum Function,Adam,386.2257385253906,386.2257385253906,11.0
+Power Sum Function,AdamW,386.2261657714844,386.2261657714844,12.0
+Power Sum Function,Yogi,386.2371826171875,386.2371826171875,13.0
+Zakharov Function,Rprop,2.787921403069049e-06,0.000301283405860886,1.0
+Zakharov Function,RpropwithPolyak,2.787921403069049e-06,0.000301283405860886,1.0
+Zakharov Function,RPropMomentum,1.0596610991342459e-05,2.1832067432114854e-05,3.0
+Zakharov Function,ProximalHB,0.007730837911367416,0.6360706686973572,4.0
+Zakharov Function,SGD,0.42167237401008606,0.6891937255859375,5.0
+Zakharov Function,SGDPolyakMomentum,2.0612845420837402,2.0612845420837402,6.0
+Zakharov Function,ProxYogi,148.47129821777344,148.47129821777344,7.0
+Zakharov Function,RMSprop,184.1491241455078,184.1491241455078,8.0
+Zakharov Function,AMSGradMirror,198.185546875,198.185546875,9.0
+Zakharov Function,AdamQN,204.3392333984375,204.3392333984375,10.0
+Zakharov Function,AdamW,207.95172119140625,207.95172119140625,11.0
+Zakharov Function,Adam,208.33653259277344,208.33653259277344,12.0
+Zakharov Function,Yogi,208.42922973632812,208.42922973632812,13.0
+Three-Hump Camel Function,SGD,0.0,0.0,1.0
+Three-Hump Camel Function,Adam,0.0,0.0,1.0
+Three-Hump Camel Function,AdamW,0.0,0.0,1.0
+Three-Hump Camel Function,RMSprop,0.0,0.0,1.0
+Three-Hump Camel Function,Yogi,0.0,5.213133730578266e-15,1.0
+Three-Hump Camel Function,Rprop,0.0,0.0,1.0
+Three-Hump Camel Function,RPropMomentum,0.0,0.0,1.0
+Three-Hump Camel Function,RpropwithPolyak,0.0,0.0,1.0
+Three-Hump Camel Function,SGDPolyakMomentum,0.0,0.0,1.0
+Three-Hump Camel Function,ProxYogi,0.0,0.0,1.0
+Three-Hump Camel Function,ProximalHB,0.0,0.0,1.0
+Three-Hump Camel Function,AdamQN,0.0,0.0,1.0
+Three-Hump Camel Function,AMSGradMirror,0.0,0.0,1.0
+Six-Hump Camel Function,SGD,0.0,0.0,1.0
+Six-Hump Camel Function,Adam,0.0,0.0,1.0
+Six-Hump Camel Function,AdamW,0.0,0.0,1.0
+Six-Hump Camel Function,RMSprop,0.0,0.0,1.0
+Six-Hump Camel Function,Yogi,0.0,0.0027504535391926765,1.0
+Six-Hump Camel Function,Rprop,0.0,0.0,1.0
+Six-Hump Camel Function,RPropMomentum,0.0,0.0,1.0
+Six-Hump Camel Function,RpropwithPolyak,0.0,0.0,1.0
+Six-Hump Camel Function,SGDPolyakMomentum,0.0,0.0,1.0
+Six-Hump Camel Function,ProxYogi,0.0,0.0,1.0
+Six-Hump Camel Function,ProximalHB,0.0,0.0,1.0
+Six-Hump Camel Function,AdamQN,0.0,0.0,1.0
+Six-Hump Camel Function,AMSGradMirror,0.0,0.0,1.0
+Dixon-Price Function,SGD,0.6666666269302368,0.667864203453064,1.0
+Dixon-Price Function,Rprop,0.6666666269302368,0.6666666865348816,1.0
+Dixon-Price Function,RPropMomentum,0.6666666269302368,0.6666666865348816,1.0
+Dixon-Price Function,RpropwithPolyak,0.6666666269302368,0.6666666865348816,1.0
+Dixon-Price Function,ProximalHB,0.6666670441627502,0.6680251955986023,5.0
+Dixon-Price Function,ProxYogi,0.6965413689613342,0.6965413689613342,6.0
+Dixon-Price Function,RMSprop,0.8018425107002258,0.8018425107002258,7.0
+Dixon-Price Function,AMSGradMirror,0.8601655960083008,0.8601655960083008,8.0
+Dixon-Price Function,SGDPolyakMomentum,0.8688119649887085,0.8688119649887085,9.0
+Dixon-Price Function,AdamQN,0.8886990547180176,0.8886990547180176,10.0
+Dixon-Price Function,Adam,0.9107491970062256,0.9107491970062256,11.0
+Dixon-Price Function,AdamW,0.9107688665390015,0.9107688665390015,12.0
+Dixon-Price Function,Yogi,0.9112874865531921,0.9112874865531921,13.0
+Rosenbrock Function,SGDPolyakMomentum,0.014435650780797005,2.813309907913208,1.0
+Rosenbrock Function,RPropMomentum,0.6251375675201416,0.6251375675201416,2.0
+Rosenbrock Function,Rprop,0.6258435845375061,0.6274511814117432,3.0
+Rosenbrock Function,RpropwithPolyak,0.6258435845375061,0.6274511814117432,3.0
+Rosenbrock Function,SGD,287.3128967285156,,5.0
+Rosenbrock Function,ProxYogi,529.6980590820312,529.6980590820312,6.0
+Rosenbrock Function,RMSprop,909.691650390625,909.691650390625,7.0
+Rosenbrock Function,AMSGradMirror,1073.8907470703125,1073.8907470703125,8.0
+Rosenbrock Function,AdamQN,1148.5867919921875,1148.5867919921875,9.0
+Rosenbrock Function,AdamW,1197.2239990234375,1197.2239990234375,10.0
+Rosenbrock Function,Adam,1200.4508056640625,1200.4508056640625,11.0
+Rosenbrock Function,Yogi,1201.643798828125,1201.643798828125,12.0
+Rosenbrock Function,ProximalHB,1408.5,,13.0
+De Jong Function N. 5,SGD,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,Adam,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,AdamW,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,RMSprop,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,Yogi,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,Rprop,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,RPropMomentum,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,RpropwithPolyak,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,SGDPolyakMomentum,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,ProxYogi,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,ProximalHB,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,AdamQN,12.670506477355957,12.670506477355957,1.0
+De Jong Function N. 5,AMSGradMirror,12.670506477355957,12.670506477355957,1.0
+Easom Function,Yogi,2.675238475191577e-09,2.675238475191577e-09,1.0
+Easom Function,SGD,2.6752844384247965e-09,2.6752844384247965e-09,2.0
+Easom Function,Adam,2.6752844384247965e-09,4.050537683042421e-09,2.0
+Easom Function,AdamW,2.6752844384247965e-09,4.050114910114644e-09,2.0
+Easom Function,RMSprop,2.6752844384247965e-09,5.751654708063825e-09,2.0
+Easom Function,Rprop,2.6752844384247965e-09,8.110174530884251e-05,2.0
+Easom Function,RPropMomentum,2.6752844384247965e-09,8.110213093459606e-05,2.0
+Easom Function,RpropwithPolyak,2.6752844384247965e-09,8.110174530884251e-05,2.0
+Easom Function,SGDPolyakMomentum,2.6752844384247965e-09,2.6752844384247965e-09,2.0
+Easom Function,ProxYogi,2.6752844384247965e-09,2.6752844384247965e-09,2.0
+Easom Function,ProximalHB,2.6752844384247965e-09,2.6752844384247965e-09,2.0
+Easom Function,AdamQN,2.6752844384247965e-09,5.272097869379877e-09,2.0
+Easom Function,AMSGradMirror,2.6752844384247965e-09,3.305415052778926e-09,2.0
+Michalewicz Function,RMSprop,0.9975857138633728,1.029415488243103,1.0
+Michalewicz Function,AdamW,1.0009549856185913,1.0027132034301758,2.0
+Michalewicz Function,Adam,1.000956416130066,1.0027559995651245,3.0
+Michalewicz Function,Rprop,1.000956416130066,1.8013031482696533,3.0
+Michalewicz Function,RPropMomentum,1.000956416130066,1.8013036251068115,3.0
+Michalewicz Function,RpropwithPolyak,1.000956416130066,1.8013031482696533,3.0
+Michalewicz Function,AdamQN,1.000956416130066,1.003142237663269,3.0
+Michalewicz Function,AMSGradMirror,1.0009686946868896,1.0056798458099365,8.0
+Michalewicz Function,SGD,1.0009765625,1.001150369644165,9.0
+Michalewicz Function,Yogi,1.0009765625,1.0024627447128296,9.0
+Michalewicz Function,SGDPolyakMomentum,1.0009765625,1.0009920597076416,9.0
+Michalewicz Function,ProxYogi,1.0009765625,1.0987720489501953,9.0
+Michalewicz Function,ProximalHB,1.0009765625,1.0283071994781494,9.0
+Beale Function,ProximalHB,0.008377800695598125,0.03971971198916435,1.0
+Beale Function,Rprop,0.017517153173685074,0.02389916405081749,2.0
+Beale Function,RpropwithPolyak,0.017517153173685074,0.02389916405081749,2.0
+Beale Function,RPropMomentum,0.0244818814098835,0.0244818814098835,4.0
+Beale Function,SGD,0.2461903691291809,0.2461903691291809,5.0
+Beale Function,SGDPolyakMomentum,8.854255676269531,8.854255676269531,6.0
+Beale Function,ProxYogi,10.874178886413574,10.874178886413574,7.0
+Beale Function,RMSprop,12.539350509643555,12.539350509643555,8.0
+Beale Function,AMSGradMirror,13.161296844482422,13.161296844482422,9.0
+Beale Function,AdamQN,13.42359733581543,13.42359733581543,10.0
+Beale Function,Adam,13.579080581665039,13.579080581665039,11.0
+Beale Function,AdamW,13.579231262207031,13.579231262207031,12.0
+Beale Function,Yogi,13.5836181640625,13.5836181640625,13.0
+Branin Function,RPropMomentum,0.3978900909423828,0.3978900909423828,1.0
+Branin Function,Rprop,0.3983879089355469,0.3983879089355469,2.0
+Branin Function,RpropwithPolyak,0.3983879089355469,0.3983879089355469,2.0
+Branin Function,ProximalHB,0.4011363983154297,0.5015945434570312,4.0
+Branin Function,SGD,5.939416885375977,5.939416885375977,5.0
+Branin Function,SGDPolyakMomentum,20.676185607910156,20.676185607910156,6.0
+Branin Function,ProxYogi,21.27995491027832,21.27995491027832,7.0
+Branin Function,RMSprop,22.634828567504883,22.634828567504883,8.0
+Branin Function,AMSGradMirror,23.16238021850586,23.16238021850586,9.0
+Branin Function,AdamQN,23.392087936401367,23.392087936401367,10.0
+Branin Function,AdamW,23.502971649169922,23.502971649169922,11.0
+Branin Function,Adam,23.539587020874023,23.539587020874023,12.0
+Branin Function,Yogi,23.54313087463379,23.54313087463379,13.0
+Colville Function,SGD,0.04007638618350029,0.7123470902442932,1.0
+Colville Function,RPropMomentum,0.2102111577987671,0.2102111577987671,2.0
+Colville Function,Rprop,0.39599287509918213,0.39599287509918213,3.0
+Colville Function,RpropwithPolyak,0.39599287509918213,0.39599287509918213,3.0
+Colville Function,ProximalHB,12.532638549804688,,5.0
+Colville Function,ProxYogi,28.017108917236328,28.017108917236328,6.0
+Colville Function,SGDPolyakMomentum,32.034881591796875,32.034881591796875,7.0
+Colville Function,RMSprop,34.27754592895508,34.27754592895508,8.0
+Colville Function,AMSGradMirror,36.65918731689453,36.65918731689453,9.0
+Colville Function,AdamQN,37.640281677246094,37.640281677246094,10.0
+Colville Function,Adam,38.492462158203125,38.492462158203125,11.0
+Colville Function,AdamW,38.49319076538086,38.49319076538086,12.0
+Colville Function,Yogi,38.51131057739258,38.51131057739258,13.0
+Forrester Function,ProxYogi,2.250935793313147e-08,0.00023670079826842993,1.0
+Forrester Function,SGDPolyakMomentum,6.907230698516287e-08,0.0010071041760966182,2.0
+Forrester Function,SGD,4.557708507491043e-06,0.9694201350212097,3.0
+Forrester Function,ProximalHB,9.434388630324975e-05,,4.0
+Forrester Function,Rprop,0.0007303914171643555,0.9863009452819824,5.0
+Forrester Function,RPropMomentum,0.0007303914171643555,0.9863253831863403,5.0
+Forrester Function,RpropwithPolyak,0.0007303914171643555,0.9863009452819824,5.0
+Forrester Function,RMSprop,0.05320538207888603,0.05320538207888603,8.0
+Forrester Function,AMSGradMirror,0.201859250664711,0.201859250664711,9.0
+Forrester Function,AdamQN,0.38175398111343384,0.38175398111343384,10.0
+Forrester Function,AdamW,0.46341297030448914,0.46341297030448914,11.0
+Forrester Function,Adam,0.46552368998527527,0.46552368998527527,12.0
+Forrester Function,Yogi,0.46809107065200806,0.46809107065200806,13.0
+Goldstein-Price Function,SGDPolyakMomentum,3.666287660598755,3.8281846046447754,1.0
+Goldstein-Price Function,RPropMomentum,30.000120162963867,30.0063419342041,2.0
+Goldstein-Price Function,Rprop,30.0687255859375,30.168790817260742,3.0
+Goldstein-Price Function,RpropwithPolyak,30.0687255859375,30.168790817260742,3.0
+Goldstein-Price Function,ProxYogi,210.02828979492188,210.02828979492188,5.0
+Goldstein-Price Function,SGD,334.33367919921875,,6.0
+Goldstein-Price Function,RMSprop,404.86895751953125,404.86895751953125,7.0
+Goldstein-Price Function,AMSGradMirror,479.3914489746094,479.3914489746094,8.0
+Goldstein-Price Function,AdamQN,510.593994140625,510.593994140625,9.0
+Goldstein-Price Function,Adam,528.4507446289062,528.4507446289062,10.0
+Goldstein-Price Function,AdamW,528.4680786132812,528.4680786132812,11.0
+Goldstein-Price Function,Yogi,528.880126953125,528.880126953125,12.0
+Goldstein-Price Function,ProximalHB,600.0,,13.0
+Hartmann 3-D Function,SGD,0.6280220746994019,3.84065318107605,1.0
+Hartmann 3-D Function,Adam,0.6280220746994019,1.1097943782806396,1.0
+Hartmann 3-D Function,AdamW,0.6280220746994019,1.1076842546463013,1.0
+Hartmann 3-D Function,RMSprop,0.6280220746994019,2.0665693283081055,1.0
+Hartmann 3-D Function,Yogi,0.6280220746994019,1.1064364910125732,1.0
+Hartmann 3-D Function,Rprop,0.6280220746994019,3.8627681732177734,1.0
+Hartmann 3-D Function,RPropMomentum,0.6280220746994019,3.8627798557281494,1.0
+Hartmann 3-D Function,RpropwithPolyak,0.6280220746994019,3.8627681732177734,1.0
+Hartmann 3-D Function,SGDPolyakMomentum,0.6280220746994019,2.5775306224823,1.0
+Hartmann 3-D Function,ProxYogi,0.6280220746994019,3.047560453414917,1.0
+Hartmann 3-D Function,ProximalHB,0.6280220746994019,3.069650411605835,1.0
+Hartmann 3-D Function,AdamQN,0.6280220746994019,1.2203607559204102,1.0
+Hartmann 3-D Function,AMSGradMirror,0.6280220746994019,1.514639139175415,1.0
+Hartmann 4-D Function,SGD,0.0,0.0,1.0
+Hartmann 4-D Function,SGDPolyakMomentum,0.0,0.0,1.0
+Hartmann 4-D Function,ProximalHB,0.0,0.0,1.0
+Hartmann 4-D Function,Adam,0.0019856335129588842,8.231179237365723,4.0
+Hartmann 4-D Function,AdamW,0.0019856335129588842,8.236299514770508,4.0
+Hartmann 4-D Function,RMSprop,0.0019856335129588842,8.399996757507324,4.0
+Hartmann 4-D Function,Yogi,0.0019856335129588842,8.228129386901855,4.0
+Hartmann 4-D Function,Rprop,0.0019856335129588842,8.399999618530273,4.0
+Hartmann 4-D Function,RPropMomentum,0.0019856335129588842,8.399999618530273,4.0
+Hartmann 4-D Function,RpropwithPolyak,0.0019856335129588842,8.399999618530273,4.0
+Hartmann 4-D Function,ProxYogi,0.0019856335129588842,8.373991012573242,4.0
+Hartmann 4-D Function,AdamQN,0.0019856335129588842,8.374518394470215,4.0
+Hartmann 4-D Function,AMSGradMirror,0.0019856335129588842,8.398627281188965,4.0
+Hartmann 6-D Function,SGD,0.5053150057792664,3.3032310009002686,1.0
+Hartmann 6-D Function,Adam,0.5053150057792664,1.038476586341858,1.0
+Hartmann 6-D Function,AdamW,0.5053150057792664,1.040846586227417,1.0
+Hartmann 6-D Function,RMSprop,0.5053150057792664,2.4878740310668945,1.0
+Hartmann 6-D Function,Yogi,0.5053150057792664,1.0343395471572876,1.0
+Hartmann 6-D Function,Rprop,0.5053150057792664,3.3223676681518555,1.0
+Hartmann 6-D Function,RPropMomentum,0.5053150057792664,3.3223679065704346,1.0
+Hartmann 6-D Function,RpropwithPolyak,0.5053150057792664,3.3223676681518555,1.0
+Hartmann 6-D Function,SGDPolyakMomentum,0.5053150057792664,1.5169458389282227,1.0
+Hartmann 6-D Function,ProxYogi,0.5053150057792664,3.2601170539855957,1.0
+Hartmann 6-D Function,ProximalHB,0.5053150057792664,3.3111495971679688,1.0
+Hartmann 6-D Function,AdamQN,0.5053150057792664,1.1569687128067017,1.0
+Hartmann 6-D Function,AMSGradMirror,0.5053150057792664,1.5751534700393677,1.0
+"Perm Function (d=4, β=10)",RPropMomentum,2263.77685546875,2263.77685546875,1.0
+"Perm Function (d=4, β=10)",Rprop,2337.97705078125,2415.79248046875,2.0
+"Perm Function (d=4, β=10)",RpropwithPolyak,2337.97705078125,2415.79248046875,2.0
+"Perm Function (d=4, β=10)",SGD,162136.890625,,4.0
+"Perm Function (d=4, β=10)",SGDPolyakMomentum,163320.765625,,5.0
+"Perm Function (d=4, β=10)",ProxYogi,181126.15625,181126.15625,6.0
+"Perm Function (d=4, β=10)",RMSprop,181836.578125,181836.578125,7.0
+"Perm Function (d=4, β=10)",AMSGradMirror,182011.921875,182011.921875,8.0
+"Perm Function (d=4, β=10)",AdamQN,182075.34375,182075.34375,9.0
+"Perm Function (d=4, β=10)",Adam,182107.71875,182107.71875,10.0
+"Perm Function (d=4, β=10)",AdamW,182107.75,182107.75,11.0
+"Perm Function (d=4, β=10)",Yogi,182108.515625,182108.515625,12.0
+"Perm Function (d=4, β=10)",ProximalHB,182236.0,,13.0
+Powell Function,Rprop,8.259394962806255e-05,8.738415635889396e-05,1.0
+Powell Function,RpropwithPolyak,8.259394962806255e-05,8.738415635889396e-05,1.0
+Powell Function,RPropMomentum,0.0006730783497914672,0.0006730783497914672,3.0
+Powell Function,ProximalHB,0.021997462958097458,0.25955256819725037,4.0
+Powell Function,SGD,0.03603745996952057,0.06479557603597641,5.0
+Powell Function,SGDPolyakMomentum,0.39854055643081665,0.4846782982349396,6.0
+Powell Function,ProxYogi,7.596400260925293,7.596400260925293,7.0
+Powell Function,RMSprop,17.048913955688477,17.048913955688477,8.0
+Powell Function,AMSGradMirror,21.344745635986328,21.344745635986328,9.0
+Powell Function,AdamQN,23.325759887695312,23.325759887695312,10.0
+Powell Function,AdamW,24.69279670715332,24.69279670715332,11.0
+Powell Function,Adam,24.71809959411621,24.71809959411621,12.0
+Powell Function,Yogi,24.7502384185791,24.7502384185791,13.0
+Shekel Function (m=10),SGD,0.8646158576011658,0.8700358867645264,1.0
+Shekel Function (m=10),Adam,0.8646158576011658,0.8765917420387268,1.0
+Shekel Function (m=10),AdamW,0.8646158576011658,0.877377986907959,1.0
+Shekel Function (m=10),RMSprop,0.8646158576011658,0.9272937178611755,1.0
+Shekel Function (m=10),Yogi,0.8646158576011658,0.8757477402687073,1.0
+Shekel Function (m=10),Rprop,0.8646158576011658,10.53592586517334,1.0
+Shekel Function (m=10),RPropMomentum,0.8646158576011658,10.536238670349121,1.0
+Shekel Function (m=10),RpropwithPolyak,0.8646158576011658,10.53592586517334,1.0
+Shekel Function (m=10),SGDPolyakMomentum,0.8646158576011658,0.8650966286659241,1.0
+Shekel Function (m=10),ProxYogi,0.8646158576011658,1.0275830030441284,1.0
+Shekel Function (m=10),ProximalHB,0.8646158576011658,1.3921984434127808,1.0
+Shekel Function (m=10),AdamQN,0.8646158576011658,0.879364550113678,1.0
+Shekel Function (m=10),AMSGradMirror,0.8646158576011658,0.8893318772315979,1.0
+Styblinski-Tang Function,SGD,0.0,71.58538818359375,1.0
+Styblinski-Tang Function,Adam,0.0,0.2940066158771515,1.0
+Styblinski-Tang Function,AdamW,0.0,0.2939254641532898,1.0
+Styblinski-Tang Function,RMSprop,0.0,1.0829499959945679,1.0
+Styblinski-Tang Function,Yogi,0.0,0.291944295167923,1.0
+Styblinski-Tang Function,Rprop,0.0,78.33202362060547,1.0
+Styblinski-Tang Function,RPropMomentum,0.0,78.33226776123047,1.0
+Styblinski-Tang Function,RpropwithPolyak,0.0,78.33202362060547,1.0
+Styblinski-Tang Function,SGDPolyakMomentum,0.0,0.8720084428787231,1.0
+Styblinski-Tang Function,ProxYogi,0.0,2.961662769317627,1.0
+Styblinski-Tang Function,ProximalHB,0.0,77.46121215820312,1.0
+Styblinski-Tang Function,AdamQN,0.0,0.3663333058357239,1.0
+Styblinski-Tang Function,AMSGradMirror,0.0,0.5495131015777588,1.0

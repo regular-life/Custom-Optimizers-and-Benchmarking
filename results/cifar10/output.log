@@ -1,0 +1,125 @@
+=== Training with SGD ===
+Epoch  1/20  Train: loss=1.8240, acc=0.3550  Val:   loss=1.6168, acc=0.4236
+Epoch  5/20  Train: loss=1.2605, acc=0.5584  Val:   loss=1.2847, acc=0.5359
+Epoch 10/20  Train: loss=1.0544, acc=0.6321  Val:   loss=1.0967, acc=0.6116
+Epoch 15/20  Train: loss=0.9431, acc=0.6688  Val:   loss=0.9971, acc=0.6466
+Epoch 20/20  Train: loss=0.8605, acc=0.7018  Val:   loss=0.9374, acc=0.6722
+
+=== Training with Adam ===
+Epoch  1/20  Train: loss=1.3976, acc=0.5028  Val:   loss=1.2506, acc=0.5481
+Epoch  5/20  Train: loss=0.8310, acc=0.7134  Val:   loss=0.9065, acc=0.6843
+Epoch 10/20  Train: loss=0.6238, acc=0.7875  Val:   loss=0.8642, acc=0.7051
+Epoch 15/20  Train: loss=0.4991, acc=0.8335  Val:   loss=0.7905, acc=0.7313
+Epoch 20/20  Train: loss=0.3999, acc=0.8706  Val:   loss=0.7256, acc=0.7580
+
+=== Training with AdamW ===
+Epoch  1/20  Train: loss=1.4194, acc=0.4940  Val:   loss=1.2358, acc=0.5583
+Epoch  5/20  Train: loss=0.8444, acc=0.7075  Val:   loss=0.9779, acc=0.6452
+Epoch 10/20  Train: loss=0.6445, acc=0.7813  Val:   loss=0.7801, acc=0.7285
+Epoch 15/20  Train: loss=0.5175, acc=0.8278  Val:   loss=0.7334, acc=0.7490
+Epoch 20/20  Train: loss=0.4223, acc=0.8612  Val:   loss=0.7319, acc=0.7479
+
+=== Training with RMSprop ===
+Epoch  1/20  Train: loss=1.4062, acc=0.4946  Val:   loss=1.4238, acc=0.4635
+Epoch  5/20  Train: loss=0.8733, acc=0.6974  Val:   loss=1.0589, acc=0.6358
+Epoch 10/20  Train: loss=0.6684, acc=0.7700  Val:   loss=0.8628, acc=0.6990
+Epoch 15/20  Train: loss=0.5389, acc=0.8183  Val:   loss=0.8816, acc=0.7038
+Epoch 20/20  Train: loss=0.4427, acc=0.8538  Val:   loss=1.1076, acc=0.6515
+
+=== Training with Yogi ===
+Epoch  1/20  Train: loss=1.4753, acc=0.4746  Val:   loss=1.3412, acc=0.5090
+Epoch  5/20  Train: loss=0.8820, acc=0.6968  Val:   loss=0.9423, acc=0.6650
+Epoch 10/20  Train: loss=0.6789, acc=0.7689  Val:   loss=0.8529, acc=0.7037
+Epoch 15/20  Train: loss=0.5585, acc=0.8127  Val:   loss=0.7630, acc=0.7344
+Epoch 20/20  Train: loss=0.4684, acc=0.8465  Val:   loss=0.7737, acc=0.7347
+
+=== Training with Rprop ===
+Epoch  1/20  Train: loss=1.6717, acc=0.4097  Val:   loss=1.6215, acc=0.4311
+Epoch  5/20  Train: loss=1.5988, acc=0.4470  Val:   loss=1.5872, acc=0.4468
+Epoch 10/20  Train: loss=1.5615, acc=0.4626  Val:   loss=1.5548, acc=0.4591
+Epoch 15/20  Train: loss=1.5319, acc=0.4762  Val:   loss=1.5195, acc=0.4708
+Epoch 20/20  Train: loss=1.5020, acc=0.4865  Val:   loss=1.4902, acc=0.4775
+
+=== Training with RPropMomentum ===
+Epoch  1/20  Train: loss=1.6873, acc=0.3977  Val:   loss=1.6281, acc=0.4195
+Epoch  5/20  Train: loss=1.6086, acc=0.4352  Val:   loss=1.5971, acc=0.4374
+Epoch 10/20  Train: loss=1.5789, acc=0.4484  Val:   loss=1.5692, acc=0.4484
+Epoch 15/20  Train: loss=1.5536, acc=0.4596  Val:   loss=1.5444, acc=0.4587
+Epoch 20/20  Train: loss=1.5297, acc=0.4695  Val:   loss=1.5236, acc=0.4661
+
+=== Training with RpropwithPolyak ===
+Epoch  1/20  Train: loss=1.6339, acc=0.4235  Val:   loss=1.5798, acc=0.4449
+Epoch  5/20  Train: loss=1.5595, acc=0.4602  Val:   loss=1.5460, acc=0.4599
+Epoch 10/20  Train: loss=1.5288, acc=0.4733  Val:   loss=1.5163, acc=0.4756
+Epoch 15/20  Train: loss=1.5031, acc=0.4830  Val:   loss=1.4956, acc=0.4789
+Epoch 20/20  Train: loss=1.4796, acc=0.4925  Val:   loss=1.4745, acc=0.4864
+
+=== Training with SGDPolyakMomentum ===
+Epoch  1/20  Train: loss=2.1707, acc=0.2173  Val:   loss=2.0382, acc=0.2805
+Epoch  5/20  Train: loss=1.8146, acc=0.3700  Val:   loss=1.7823, acc=0.3805
+Epoch 10/20  Train: loss=1.6466, acc=0.4289  Val:   loss=1.6251, acc=0.4332
+Epoch 15/20  Train: loss=1.5414, acc=0.4648  Val:   loss=1.5237, acc=0.4702
+Epoch 20/20  Train: loss=1.4518, acc=0.4982  Val:   loss=1.4392, acc=0.4992
+
+=== Training with ProxYogi ===
+/home/yash/Codes/AOMML/self_optimizers/prox_yogi.py:55: UserWarning: This overload of addcmul_ is deprecated:
+	addcmul_(Number value, Tensor tensor1, Tensor tensor2)
+Consider using one of the following signatures instead:
+	addcmul_(Tensor tensor1, Tensor tensor2, *, Number value = 1) (Triggered internally at ../torch/csrc/utils/python_arg_parser.cpp:1581.)
+  v.addcmul_(- (1 - beta2), grad2, diff.sign())
+Epoch  1/20  Train: loss=1.3831, acc=0.5019  Val:   loss=1.2412, acc=0.5521
+Epoch  5/20  Train: loss=0.8081, acc=0.7228  Val:   loss=0.9443, acc=0.6685
+Epoch 10/20  Train: loss=0.6284, acc=0.7858  Val:   loss=0.7835, acc=0.7308
+Epoch 15/20  Train: loss=0.5188, acc=0.8267  Val:   loss=0.7356, acc=0.7431
+Epoch 20/20  Train: loss=0.4372, acc=0.8581  Val:   loss=0.7309, acc=0.7536
+
+=== Training with ProximalHB ===
+Epoch  1/20  Train: loss=1.4746, acc=0.4661  Val:   loss=1.5070, acc=0.4705
+Epoch  5/20  Train: loss=0.8728, acc=0.6949  Val:   loss=0.9257, acc=0.6712
+Epoch 10/20  Train: loss=0.6496, acc=0.7765  Val:   loss=0.7731, acc=0.7280
+Epoch 15/20  Train: loss=0.5109, acc=0.8258  Val:   loss=0.7983, acc=0.7269
+Epoch 20/20  Train: loss=0.4030, acc=0.8650  Val:   loss=0.7396, acc=0.7553
+
+=== Training with AdamQN ===
+Epoch  1/20  Train: loss=1.3463, acc=0.5223  Val:   loss=1.2211, acc=0.5586
+Epoch  5/20  Train: loss=0.7821, acc=0.7303  Val:   loss=0.8878, acc=0.6932
+Epoch 10/20  Train: loss=0.6035, acc=0.7970  Val:   loss=0.7550, acc=0.7377
+Epoch 15/20  Train: loss=0.4825, acc=0.8394  Val:   loss=0.6897, acc=0.7560
+Epoch 20/20  Train: loss=0.3935, acc=0.8707  Val:   loss=0.6641, acc=0.7697
+
+=== Training with AMSGradMirror ===
+Epoch  1/20  Train: loss=1.3819, acc=0.5091  Val:   loss=1.2040, acc=0.5651
+Epoch  5/20  Train: loss=0.9129, acc=0.6862  Val:   loss=0.9575, acc=0.6606
+Epoch 10/20  Train: loss=0.7628, acc=0.7392  Val:   loss=0.9032, acc=0.6823
+Epoch 15/20  Train: loss=0.6739, acc=0.7708  Val:   loss=0.8119, acc=0.7155
+Epoch 20/20  Train: loss=0.6060, acc=0.7979  Val:   loss=0.7703, acc=0.7358
+
+=== Final Training Accuracies ===
+SGD    : 70.18%
+Adam   : 87.06%
+AdamW  : 86.12%
+RMSprop: 85.38%
+Yogi   : 84.65%
+Rprop  : 48.65%
+RPropMomentum: 46.95%
+RpropwithPolyak: 49.25%
+SGDPolyakMomentum: 49.82%
+ProxYogi: 85.81%
+ProximalHB: 86.50%
+AdamQN : 87.07%
+AMSGradMirror: 79.79%
+
+=== Final Validation Accuracies ===
+SGD    : 67.22%
+Adam   : 75.80%
+AdamW  : 74.79%
+RMSprop: 65.15%
+Yogi   : 73.47%
+Rprop  : 47.75%
+RPropMomentum: 46.61%
+RpropwithPolyak: 48.64%
+SGDPolyakMomentum: 49.92%
+ProxYogi: 75.36%
+ProximalHB: 75.53%
+AdamQN : 76.97%
+AMSGradMirror: 73.58%
