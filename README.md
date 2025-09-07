@@ -21,7 +21,7 @@ A PyTorch‐based suite of advanced optimization algorithms and a systematic ben
 
 ## Project Overview
 
-This repository implements 7 optimization algorithms—including classical, adaptive, zero-order, proximal, and quasi-Newton variants—in PyTorch, and benchmarks them along with 6 well-known optimization algorithms on:
+This repository implements 7 novel optimization algorithms—spanning adaptive, zero-order, proximal, and quasi-Newton variants—in PyTorch, and benchmarks them alongside 6 classical optimizers on:
 
 * **Image classification** (MNIST, CIFAR-10) using a standard 9-layer CNN.
 * **Synthetic optimization** over challenging nonconvex functions (e.g., bowl-shaped, valley-shaped, plate-shaped, steep ridges, multiple local minima).
