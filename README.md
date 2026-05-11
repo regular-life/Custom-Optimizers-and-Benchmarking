@@ -2,7 +2,7 @@
 
 A PyTorch‐based suite of advanced optimization algorithms and a systematic benchmarking framework on both deep‐learning and synthetic‐function tasks.
 
-> **Course:** This work was completed as part of **CSE517: Applied Optimization Methods in Machine Learning** at IIIT-Delhi under Prof. Bapi Chatterjee in Winter 2025 Semester.
+> **Course:** This work was completed as part of **CSE517: Applied Optimization Methods in Machine Learning** at IIIT-Delhi with Saksham Kapoor, under Prof. Bapi Chatterjee in Winter 2025 Semester.
 
 ---
 
